@@ -9,9 +9,11 @@
     box-sizing: border-box;
 }
 
+/*Base*/
 body {
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container {
@@ -36,4 +38,14 @@ header nav a {
 
 header nav a:hover {
     color: #fff;
+}
+
+/*vídeo principal*/
+
+.filme-principal {
+    font-size: 1.25rem;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/capa-oqe-matematica.jpg');
+
+    height: 25rem;
+    background-size: cover;
 }
